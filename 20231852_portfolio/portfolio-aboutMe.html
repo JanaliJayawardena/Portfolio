@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d83394d335.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <img src="images/JJ__1_-removebg-preview.png" class="logo" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="portfolio-home.html">Home</a></li>
+          <li><a href="portfolio-aboutMe.html">About</a></li>
+          <li><a href="portfolio-projects.html">projects</a></li>
+          <li><a href="#">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>  
+    </div>
+  </header>
+
+
+    <div id="About"></div>
+      <div class="about-container">
+        <div class="row">
+
+          <div class="about-col-1">
+            <img src="images/aboutme.jpg" alt="aboutMe">
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am a passionate computer science student with a strong foundation in web and app development, specializing in creating user-friendly interfaces and functional applications. With experience in HTML, CSS, JavaScript, and programming in Java and Python, I’m dedicated to transforming ideas into interactive digital solutions. My goal is to continuously learn and innovate, bringing fresh perspectives to every project I work on.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designin Web/App Interfaces<br>figma</li>
+                <li><span>Web Development</span><br>Web App Development<br>HTML, CSS, JavaScript</li>
+                <li><span>Programming</span><br>Java/Python</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="projects">
+              <ul>
+                <li><span>UI/UX</span><br>IX 24 Designathon - design an app encouraging sustainable urban living </li>
+                <li><span>Web Development</span><br>A simple, responsive website introducing Quality Education under the United Nations Sustainable Development Goals (SDGs)</li>
+                <li><span>Programming</span><br> <I>Java</I> - coursework assignment to create a plane seat reservation management system, involving tasks such as implementing a menu-driven interface, managing seat reservations, creating classes for tickets and passengers, and handling basic file operations. <br> <br> <i>Python</i> - assignment to create a university student progression prediction system, including data validation, multiple outcome handling, histogram generation, and optional extensions for data storage and file handling. </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023</span><br>Undergraduate at IIT<br> Computer Science </li>
+                <li><span>2022/2023 A/Ls</span><br> 3cs - physical Science</li>
+                <li><span>2019 O/Ls</span><br>9As</li>
+              </ul>
+            </div>
+
+          </div>  
+        </div>
+      </div>
+    </div>
+    
+
+  <footer>
+    <div class="copy-right">
+      <p>Designed & Built by Janali Jayawardena.</p>
+    </div>
+  </footer>
+
+
+  <script src="script1.js"></script>
+
+</body>
+</html>
